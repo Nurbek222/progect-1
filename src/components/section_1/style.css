@@ -1,0 +1,174 @@
+.container_section{
+     /* display: grid;
+    grid-template-columns: 3fr 2fr; 
+   */
+   
+   display: flex;
+   
+   
+   
+   
+}
+
+@media (max-width:767px) {
+    .creator_item{
+        
+        color: brown;
+    }
+    .container_section{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+       
+        text-align: center;
+        
+    }
+    .painting_item{
+        width: 130%;
+        
+    }
+    .painting{
+        display: flex ;
+    }
+    .section_right{
+        display: block;
+        margin-left: 15%;
+        
+        width: 80% !important;
+       
+    }
+  
+
+}
+
+.painting{
+    display: flex;
+    width: 60%;
+    margin-left: 1px;
+}
+.painting_item{
+    margin-left: 70px;
+}
+.section_right{
+    display: block;
+    width: 40%;
+    margin-right: 20px;
+    
+    
+}
+.creator{
+    margin-bottom: 50px;
+    width: 80%;
+}
+.creator_foto{
+    display: flex;
+   
+    width: 35%;
+}
+.creator_item{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+    
+    
+}
+.creator_foto_item{
+    border-radius: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 39px;
+    height: 39px;
+   
+}
+.creator_text{
+    display: block;
+    text-align: left;
+    margin-left: 3%;
+}
+.creator_price_2{
+    display: flex;
+    width: 35%;
+}
+.creator_price{
+    
+    position: relative;
+    width: 39px;
+    height: 39px;
+    background-color: green;
+    border-radius: 50px;
+    
+
+}
+.creator_price_item{
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 10px;
+   
+}
+.current_bind{
+    margin-top: 30px;
+}
+.current{
+    display: block;
+    border: solid grey 0.5px;
+    border-radius: 5%;
+ 
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+.current_eth{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.table{
+    margin-top: 30px;
+}
+.table_item{
+    margin-left: 33%
+}
+.tr{
+    font-weight: bolder;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+.btn_place{
+    display: block;
+}
+
+.btn_place_item{
+   float: right;
+   
+    background-color:rgb(0 95 227 / 68%);
+    color: white;
+    cursor: pointer;
+    padding: 2% 36% 2%;
+    border-radius: 40px;
+    
+    font-size: 1.1rem;
+   
+}
+.btn_view{
+ float: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    padding: 2% 36% 2%;
+    border-radius: 40px;
+    font-size: 1.1rem;
+ 
+    
+}
+.arrow{
+    display: flex;
+    margin-left: 75px;
+}
+.arrow_l, .arrow_r{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.arrow_r{
+    margin-left: 49px;
+}

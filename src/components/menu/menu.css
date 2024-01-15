@@ -1,0 +1,44 @@
+.mennu{
+    position: fixed;
+    background-color: rgb(22, 24, 24);
+    right: 0;
+    top: 95px;
+    width: 100%;
+    transition: 1s;
+    display: none;
+    
+
+}
+.mennu_header{
+    font-size: 1.2rem;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    width: 100%;
+    color: white;
+    
+}
+ul li a {
+    text-decoration: none;
+    color:rgb(243, 195, 195);
+}
+ul li{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+.mennu.active{
+    /* display: none; */
+    top: -150px;
+    
+   
+       
+    
+}
+    
+@media (max-width:500px) {
+    .mennu{
+        display: block;
+ 
+    }
+    
+}

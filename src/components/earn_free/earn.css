@@ -1,0 +1,39 @@
+
+.footer_earn{
+    margin: 80px;
+   display: flex;
+   justify-content: space-between;
+   text-align: start;
+   align-items: center;
+}
+.earn_item{
+    font-size: 12px;
+    color: #00000091;
+    font-weight: 700;
+}
+.earn_earn{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.earn_creat{
+    color: #00000091;
+    font-weight: 700;
+}
+.earn_btn1{
+    background-color:rgb(0 95 227 / 68%);
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+}
+.earn_btn2{
+   
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 10px;
+    
+}
+.earn_img{
+    width: 60%;
+}

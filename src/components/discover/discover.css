@@ -1,0 +1,42 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu_item{
+    list-style: none;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+   
+}
+.menu_item_1{
+    background-color:darkslategray ;
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+    color: white;
+}
+.menu_btn{
+    background-color: blue;
+    padding: 0px 20px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    height: 20px;
+
+}
+.choos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.price{
+    width: 250px;
+}
+.price_name{
+    display: flex;
+    justify-content: flex-start;
+    
+}

@@ -1,0 +1,87 @@
+.container_hot{
+   
+    margin: 80px;
+}
+.hot_bid{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.hot_arrow{
+    border-radius: 50%;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+
+}
+.hot_bid_text{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.container_hot_cart{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width:818px) {
+    .container_hot_cart{
+        display: flex;
+        flex-wrap: wrap;
+      
+        
+    }
+}
+.hot_card_box{
+    width: 25%;
+    height: 70%;
+}
+.hot_cart{
+    width: 250px;
+    
+}
+.hot_cart_img{
+    width: 400%;
+    height: 100%;
+    border-radius: 15px;
+}
+.hot_cart_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.hot_cart_foto{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 0.5px gray;
+    padding-bottom: 15px;
+}
+.hot_foto_austin{
+    width: 20px;
+    border-radius: 50%;
+    border: solid 2px white;
+    background-color: brown;
+}
+.hot_foto_austin_2{
+    width: 20px;
+    border-radius: 50%;
+    margin-left: -6px;
+    border: solid 2px white;
+    background-color: green;
+}
+.hot_bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items: center;
+}
+.hot_bottom_text{
+    font-size: 0.8rem;
+    margin-left: -25px;
+}
+.hot_bottom_text_eth{
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-left: -25px;
+}
